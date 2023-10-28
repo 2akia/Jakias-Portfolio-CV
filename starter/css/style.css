@@ -6,6 +6,8 @@
 display: flex;
 flex-direction: row;
 margin: 0px 5%;
+width: 72%;
+justify-content: right;
 }
 
 #navigation {
@@ -32,6 +34,7 @@ body {
 .hero-banner {
 display: flex;
 background-position: center;
+background-size: cover;
 background-image: url(../images/02-hero-bg.jpg);
 margin: 0px;
 display: grid;
@@ -42,15 +45,15 @@ height: 50vh;
 
 #work {
   margin: auto;
-  padding: 2cm;
-  
 }
 
-.page-section {
+.projectsContainer {
 margin: 0px 5%;
+width:70% ;
+flex: 1;
 display: grid;
-border: 2px;
-grid-template-rows: 200px 200px 200px 200px;
+border: 2px solid black;
+grid-template-rows: 200px 200px 200px;
 grid-template-columns: 1fr 1fr;
 grid-template-areas: 
 "project1" "project1" 
@@ -64,11 +67,20 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin: 5px;
+border: 2px solid black;
 display: grid;
 align-content: end;
-
 }
 
+
+.contactLinks {
+flex: 1;
+}
+
+.page-section {
+display: flex;
+
+}
 
 #project1 {
   grid-area: "project1";
@@ -97,9 +109,10 @@ align-content: end;
 }
 
 
-
-h1,
-h2,
+.page-section h2 { 
+width: 17% ;
+border-right: 5px solid black;
+}
 h3,
 h4,
 h5,
@@ -110,3 +123,21 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Styles for small screens (e.g., mobile phones) */
+
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Styles for medium screens (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Styles for larger screens (e.g., laptops and desktops) */
+@media screen and (min-width: 1025px) {
+  
+}
+
+
