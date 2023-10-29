@@ -12,16 +12,27 @@ justify-content: right;
 
 #navigation {
   text-decoration: underline;
-  margin: 10px;
   display: flex;
   width: 50%;
-  align-items: center;
+  align-items: ;
   justify-content: space-evenly;
 }
 
 h1 {
-  display: block;
+  display: flex;
   color: rgb(20, 114, 138);
+}
+
+a {
+  position: relative;
+  top: -127px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 34px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 115px);
+  z-index: 1;
+  
 }
 
 body {
@@ -35,17 +46,30 @@ body {
 display: flex;
 background-position: center;
 background-size: cover;
-background-image: url(../images/02-hero-bg.jpg);
-margin: 0px;
+background-image: url(../images/background-6360866_1280.png);
+margin-bottom: 118px;
 display: grid;
 min-height: 200px;
 height: 50vh;
 
 }
 
+#about {
+font-family: 'Times New Roman', Times, serif;
+justify-content: unset;
+margin-bottom: 67px;
+
+}
+
 #work {
   margin: auto;
 }
+/*this will highlight once it is hovered over*/
+
+a:hover {
+  background-color: antiquewhite;
+}
+
 
 .projectsContainer {
 margin: 0px 5%;
@@ -85,12 +109,12 @@ display: flex;
 #project1 {
   grid-area: "project1";
   grid-column: span 2;
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(../images/Project1.png);
   }
 
 #project2 {
   grid-area: "project2";
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/02-portfolio-4.jpg);
 }
 
 #project3 {

@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <!--<link rel="stylesheet" href="./assets/css/style.css" />-->
-  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="../starter/css/style.css"/>
 </head>
 
 <body>
@@ -16,10 +15,10 @@
   <header>
     <h1>Lernantino</h1>
     <nav id="navBar">
-      <div id="navigation">
-        <p>About Me</p>
-        <p>Work</p>
-        <p>Contact</p>
+      <div id="navigation"> 
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
@@ -41,10 +40,13 @@
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
-     <section class="projectsContainer"> 
-      <div id="project1" class="catogoryGridArea">
+      <div class="projectsContainer">
+      <div id="project1" class="catogoryGridArea" >
+        <a href="https://2akia.github.io/Search-Engine-Optimization/">
         <div class="heading">project 1</div>
+        </a>
       </div>
+     
       <div id="project2" class="catogoryGridArea">
         <div class="heading">project 2</div>
       </div>
@@ -57,7 +59,7 @@
       <div id="project5" class="catogoryGridArea">
         <div class="heading">project 5</div>
       </div>
-    </section>
+    </div>
     </section>
 
     <!-- contact -->
@@ -72,6 +74,7 @@
           <p>Git Hub</p>
         </div>
       </div>
+
     </section>
   </main>
 </body>
