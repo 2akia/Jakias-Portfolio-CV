@@ -50,13 +50,13 @@ body {
 
 .hero-banner {
 display: flex;
-background-position: center;
+background-position: reletive;
 background-size: cover;
 background-image: url(../images/background-6360866_1280.png);
 margin-bottom: 118px;
 display: grid;
 min-height: 200px;
-height: 50vh;
+height: 22vh;
 
 }
 
@@ -68,12 +68,13 @@ margin-bottom: 67px;
 }
 
 #work {
-  margin: auto;
+  margin-bottom: 114px;
 }
 /*this will highlight once it is hovered over*/
 
 a:hover {
   background-color: antiquewhite;
+  opacity: 40%;
 }
 
 
@@ -82,7 +83,7 @@ margin: 0px 5%;
 width:70% ;
 flex: 1;
 display: grid;
-border: 2px solid rgb(10, 61, 87);
+border: 2px solid rgb(181, 150, 102);
 grid-template-rows: 400px 200px 200px;
 grid-template-columns: 1fr 1fr;
 grid-template-areas: 
@@ -97,17 +98,14 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin: 5px;
-border: 2px solid black;
+border: 2px solid rgb(181, 150, 102);
 display: grid;
 align-content: end;
 }
 
 
 .contactLinks {
-display: flex;
-justify-content: space-around;
-color: teal;
-align-items: center;
+
 }
 
 .contactLinks a {
@@ -120,6 +118,9 @@ align-items: center;
 
 .page-section {
 display: flex;
+text-align: center;
+font-size: 22px;
+color: teal;
 
 }
 
@@ -161,32 +162,28 @@ margin-top: 106px;
 
 }
 
-h6 {
-  margin: 0;
-}
-
 p {
-  margin: 0;
+  margin-left: 53px;
+  color: rgb(27, 26, 26);
 }
 
 /* Styles for small screens (e.g., mobile phones) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   body {
-    background-color: orchid;
+    background-color: rgb(243, 238, 243);
   }
 }
 
 /* Styles for medium screens (e.g., tablets) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  body { background-color: coral;
-
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  body { background-color: rgb(246, 244, 243);
   }
 }
 
 /* Styles for larger screens (e.g., laptops and desktops) */
 @media screen and (min-width: 1025px) {
-  
+  body {background-color: rgb(242, 245, 242);}
 }
 
 
