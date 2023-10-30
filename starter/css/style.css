@@ -31,12 +31,12 @@ h1 {
 
 section div a {
   position: relative;
-  top: -127px;
+  top: -312px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 34px;
   left: 0;
   width: 100%;
-  height: calc(100% + 115px);
+  height: calc(100% + 278px);
   z-index: 1;
   
 }
@@ -82,8 +82,8 @@ margin: 0px 5%;
 width:70% ;
 flex: 1;
 display: grid;
-border: 2px solid black;
-grid-template-rows: 200px 200px 200px;
+border: 2px solid rgb(10, 61, 87);
+grid-template-rows: 400px 200px 200px;
 grid-template-columns: 1fr 1fr;
 grid-template-areas: 
 "project1" "project1" 
