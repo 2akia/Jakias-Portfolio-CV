@@ -5,7 +5,7 @@
 #navBar {
 display: flex;
 flex-direction: row;
-margin: 0px 5%;
+margin: 0px 26%;
 width: 72%;
 justify-content: right;
 }
@@ -18,12 +18,18 @@ justify-content: right;
   justify-content: space-evenly;
 }
 
+header nav div a {
+font-size: 20px;
+
+}
+
 h1 {
   display: flex;
+  margin-bottom: -26px;
   color: rgb(20, 114, 138);
 }
 
-a {
+section div a {
   position: relative;
   top: -127px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -98,7 +104,18 @@ align-content: end;
 
 
 .contactLinks {
-flex: 1;
+display: flex;
+justify-content: space-around;
+color: teal;
+align-items: center;
+}
+
+.contactLinks a {
+  text-decoration: none;
+  color: rgb(20, 114, 138);
+  margin-top: -25px;
+  text-align: right;
+  font-size: 25px;
 }
 
 .page-section {
@@ -137,9 +154,13 @@ display: flex;
 width: 17% ;
 border-right: 5px solid black;
 }
-h3,
-h4,
-h5,
+
+#contact {
+display: flex;
+margin-top: 106px;
+
+}
+
 h6 {
   margin: 0;
 }
