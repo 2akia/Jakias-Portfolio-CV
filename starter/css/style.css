@@ -172,12 +172,16 @@ p {
 /* Styles for small screens (e.g., mobile phones) */
 
 @media screen and (max-width: 768px) {
-  
+  body {
+    background-color: orchid;
+  }
 }
 
 /* Styles for medium screens (e.g., tablets) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  
+  body { background-color: coral;
+
+  }
 }
 
 /* Styles for larger screens (e.g., laptops and desktops) */
