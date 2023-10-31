@@ -25,6 +25,8 @@ font-size: 20px;
 
 h1 {
   display: flex;
+  position: relative;
+  left: 30px;
   margin-bottom: -26px;
   color: rgb(20, 114, 138);
 }
@@ -32,6 +34,7 @@ h1 {
 section div a {
   position: relative;
   top: -312px;
+  color: teal;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 34px;
   left: 0;
@@ -124,7 +127,7 @@ margin-left: 58px;
 .page-section {
 display: flex;
 text-align: center;
-font-size: 22px;
+font-size: 17px;
 color: teal;
 
 }
@@ -142,7 +145,7 @@ color: teal;
 
 #project3 {
   grid-area: "project3";
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../images/Envelope.jpg);
 }
 
 #project4 {
@@ -168,7 +171,7 @@ margin-top: 106px;
 }
 
 p {
-  margin-left: 53px;
+  margin-left: 12px;
   position: relative;
   left: 59px;
   color: rgb(27, 26, 26);
