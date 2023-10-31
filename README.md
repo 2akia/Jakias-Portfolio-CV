@@ -11,10 +11,14 @@ Hello!! Welcome to my Portofolio.
 
 ## Introduction
 
-This ...
+A Career,  regardless of whether it's in the realm of professional artistry or web development,necessitates the inclusion of a portfolio website.This website will serve as a central hub where potential employers can easily peruse your work and get to know you better. 
 
+Additionally, it offers an excellent opportunity to display your skills and accomplishments effectively.
 
-
+- You can showcase your work
+- Attract new clients
+- Helps to build your personal brand
+- Helps you build credibility
 
 # Installation
 
@@ -43,7 +47,7 @@ Here are some useful resources related to this project:
 
 # License
 
-This project is licensed under the MIT License. See the [LICENSE] file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 > [!NOTE]
 
@@ -56,10 +60,10 @@ If you have any questions or need assistance, feel free to reach out to me on my
 
 The tools that have been added in this project:
 
-- 
-- 
-- 
-- 
-- 
-- 
+- The page loads with the links to sections about me, my work and how to contact me.
+- When the links in the navigation is clicked then the UI scrolls to the corresponding section.
+- The section about my work contains titled images of my applications.
+- The first application in the application's image, is larger in size than the others.
+- User is taken to that deployed application when the application is clicked.
+- When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport.
 
