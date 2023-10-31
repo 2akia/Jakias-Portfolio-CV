@@ -43,7 +43,7 @@ Here are some useful resources related to this project:
 
 # License
 
-This project is licensed under the MIT License. See the [     file for details.
+This project is licensed under the MIT License. See the [LICENSE] file for details.
 
 > [!NOTE]
 
