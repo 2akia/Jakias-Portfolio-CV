@@ -81,6 +81,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+/* hero banner with the image overlay avater css*/
 
 .hero-banner {
 display: flex;
@@ -127,7 +128,7 @@ margin-bottom: 67px;
 #work {
   margin-bottom: 114px;
 }
-
+/* Main body of the grid*/
 .projectsContainer {
 margin: 0px 5%;
 width:70% ;
@@ -152,6 +153,7 @@ border: 2px solid rgb(181, 150, 102);
 display: grid;
 align-content: end;
 }
+/* contact/ these are connected to the contact me*/
 
 .contactLinks {
 display: flex;
@@ -212,14 +214,16 @@ border-right: 5px solid rgb(119 114 114);
 #contact {
 display: flex;
 margin-top: 106px;
-
 }
 
 p {
   margin-left: 12px;
   position: relative;
-  left: 59px;
-  color: rgb(27, 26, 26);
+  left: 66px;
+  text-align: left;
+  bottom: 3px;
+  font-weight: 500;
+  color: rgb(20, 114, 138);
 }
 
 /* Styles for small screens (e.g., mobile phones) */
