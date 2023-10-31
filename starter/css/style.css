@@ -49,6 +49,7 @@ color: teal;
 h1 {
   display: flex;
   margin-bottom: -26px;
+  margin-left: 58px;
   color: rgb(20, 114, 138);
 }
 
@@ -83,13 +84,36 @@ body {
 
 .hero-banner {
 display: flex;
-background-position: reletive;
+position: reletive;
 background-size: cover;
 background-image: url(../images/background-6360866_1280.png);
 margin-bottom: 118px;
 display: grid;
 min-height: 200px;
 height: 22vh;
+}
+
+.image-overlay {
+position: absolute;
+top: 100px;
+width: 20%;
+height: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(255 255 255 / 0%);
+}
+
+.image-overlay img {
+  width: 59%;
+  height: auto;
+  position: relative;
+  opacity: 1;
+  transition: .3s ease;
+  left: 429%;
+  bottom: -91%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 
 }
 
