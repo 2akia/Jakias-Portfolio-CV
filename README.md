@@ -1,6 +1,6 @@
 # Jakias-Portfolio-CV - Guide
 
-Hello!! Welcome to my Portofolio.
+Hello!! Welcome to my Portfolio.
 
 ## Table of Contents:
 * [Introduction](#introduction)
@@ -27,11 +27,11 @@ Additionally, it offers an excellent opportunity to display your skills and acco
 3. Install the required software components
 4. Start the application
 
-![Example Screenshot 1](./starter/images/Screenshot%201.png)
+![Example Screenshot 1](./images/Screenshot%201.png)
 
-![Example Screenshot 2](./starter/images/Screenshot%202..png)
+![Example Screenshot 2](./images/Screenshot%202..png)
 
-![Example Screenshot 3](./starter/images/Screenshot%203.png)  
+![Example Screenshot 3](./images/Screenshot%203.png)  
 
 
 
